@@ -196,7 +196,7 @@ body {
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.521)), url(../image/banner/banner1.jpg) center right no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.521)), url(../new_image/banner/chilli.jpg) center right no-repeat;
     background-size: cover;
 
 }
@@ -413,7 +413,7 @@ body {
 }
 
 .bg_fixed {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.596)), url("../img/pulses.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562), rgba(0, 0, 0, 0.596)), url("../new_image/banner/rice.jpg");
     padding: 4rem 0rem 4rem 0rem;
     width: 100%;
     background-size: cover;
