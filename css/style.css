@@ -330,8 +330,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #0e1871;
-    border:2px solid #0e1871;
+    color: rgb(138 14 14);
+    border:2px solid rgb(138 14 14);
     border-radius: 50px;
     font-size: 18px;
     transition: .5s;
@@ -340,7 +340,7 @@ body {
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
     color: #FFFFFF;
-    background: #0e1871;
+    background: rgb(138 14 14);
 }
 
 
@@ -436,8 +436,8 @@ body {
 .carousel-control-prev-icon, .carousel-control-next-icon {
     width: 3rem;
     height: 3rem;
-    background-color: #0e1871;
-    border: 10px solid #0e1871;
+    background-color: #8a0e0e;
+    border: 10px solid #8a0e0e;
     border-radius: 3rem;
 }
 
@@ -462,7 +462,7 @@ body {
 .testimonial-carousel .owl-item.center .testimonial-item {
     /* background: #000000 !important; */
      
-    background: #0e1871 !important;
+    background: #8a0e0e !important;
 }
 
 
