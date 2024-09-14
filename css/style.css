@@ -442,7 +442,10 @@ body {
 }
 
 
-
+.rounded{
+    border-radius: 10px !important;
+    overflow: hidden;
+}
 
 
 
