@@ -330,8 +330,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--dark);
-    border: 2px solid var(--primary);
+    color: #0e1871;
+    border:2px solid #0e1871;
     border-radius: 50px;
     font-size: 18px;
     transition: .5s;
@@ -340,7 +340,7 @@ body {
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: #0e1871;
 }
 
 
@@ -447,10 +447,23 @@ body {
     overflow: hidden;
 }
 
+.bg2 {
+    background-image: url(../new_image/ani.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    animation: 20s linear 0s infinite normal none running w;
+}
 
 
-
-
+.testimonial-carousel .owl-item.center .testimonial-item {
+    /* background: #000000 !important; */
+     
+    background: #0e1871 !important;
+}
 
 
 /*  */
