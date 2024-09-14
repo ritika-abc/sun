@@ -79,8 +79,8 @@
 
         <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn bg-white" data-wow-delay="0.1s">
             <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
-                <!-- <img src="img/logo.png" height="70px" width="150px" alt="BGMT Group"> -->
-                <h4>SUN PROMOTERS </h4>
+                <img src="logo.jpg" height="90px" width="200px" alt="SUN PROMOTERS">
+                <!-- <h4>SUN PROMOTERS </h4> -->
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -160,35 +160,35 @@
                     <p>We’re here to help! If you have any questions, need assistance, or just want to get in touch,
                         please don’t hesitate to reach out. Our dedicated team is ready to assist you and provide the
                         support you need.</p>
-                    <form method="post">
+                    <form method="">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="name" placeholder="Your Name">
+                                    <input type="text" class="form-control name" name="name" placeholder="Your Name">
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email">
+                                    <input type="email" class="form-control email" name="email" placeholder="Your Email">
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" name="phone" placeholder="Subject">
+                                    <input type="text" class="form-control phone" name="phone" placeholder="Subject">
                                     <label for="number">Phone</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" name="message"
+                                    <textarea class="form-control message" placeholder="Leave a message here" name="message"
                                         style="height: 200px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary rounded-pill py-3 px-5" name="submit" type="submit">Send
+                                <button class="btn btn-primary rounded-pill py-3 px-5" onclick="contact()" >Send
                                     Message</button>
                             </div>
                         </div>
@@ -276,38 +276,7 @@
 
 
 
-    <!-- Footer End -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">SUN PROMOTERS
-                    </h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-12 col-md-6 my-2">
-                            <input type="text" class="form-control name" value="" placeholder="Enter Your Name" />
-                        </div>
-                        <div class="col-12 col-md-6 my-2">
-                            <input type="number" class="form-control number" value="" placeholder="Enter Your Number" />
-                        </div>
-                        <div class="col-12  my-2">
-                            <input type="email" class="form-control email" value="" placeholder="Enter Your Email" />
-                        </div>
-
-
-
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" onclick="go()" class="btn btn-primary">Submit</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Back to Top -->
     <script>
@@ -315,20 +284,22 @@
     </script>
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
             class="bi bi-arrow-up"></i></a>
-    <script>
-        function go() {
-            var name = document.querySelector(".name").value;
-            var email = document.querySelector(".email").value;
-            var number = document.querySelector(".number").value;
-            var url = "https://wa.me/918778067243?text=" +
-                "Name: " +
-                name + " " +
-                "Number: " +
-                number + " " +
-                "Email :" + email;
-            window.open(url, "_blank").focus();
-        }
-    </script>
+            <script>
+                function contact() {
+                    var na = document.querySelector(".name").value;
+                    var em = document.querySelector(".email").value;
+                    var phone = document.querySelector(".phone").value;
+                    var mes = document.querySelector(".message").value;
+                    var url1 = "https://wa.me/919443215836?text=" +
+                        "Name: " +
+                        na + " " +
+                        "Email: " +
+                        em + " " +
+                        "Phone :" + phone +
+                        "Message :" + mes;
+                    window.open(url1, "_blank").focus();
+                }
+            </script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
